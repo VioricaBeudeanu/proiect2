@@ -1,0 +1,180 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	row-gap: gap;
+	width: 100%;
+	align-items: flex-start;
+}
+.container1 {
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	align-items: flex-start;
+	height: 100%;
+	padding: 20px;
+}
+.menu {
+	width: 20%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	height: 90%;
+}
+.first {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 25px;
+	margin-bottom: 10px;
+}
+h1 {
+	color: black;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+li {
+	display: flex;
+	flex-direction: row;
+	border-left: 10px;
+	align-items: center;
+	gap: 10px;
+}
+.input {
+	position: relative;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+}
+input2 {
+	width: 100%;
+	box-sizing: border-box;
+}
+.on {
+	pozition: relative;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+}
+.text-orange-row {
+	color: orange;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin-left: 20px;
+}
+.fa-hands-helping {
+	color: black;
+	margin-right: 10px;
+}
+.fa-comments-dollar {
+	color: black;
+	margin-right: 10px;
+}
+.orange {
+	color: orange;
+	margin-left: 30px;
+}
+.text-orange {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	color: orange;
+	padding: 30px;
+}
+.black {
+	color: black;
+}
+.container2 {
+	width: 20%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	align-items: space-between;
+	margin-left: 300px;
+}
+.header {
+	width: 30%;
+	height: 80px;
+	display: flex;
+	color: black;
+	flex-direction: column;
+	padding: 25px;
+	row-gap: 30px;
+	font-size: 15px;
+}
+.title1 {
+	display: flex;
+	font-size: 30px;
+}
+.title-options {
+	display: flex;
+	font-size: 25px;
+}
+.button-VPN {
+	display: flex;
+	font-size: 15px;
+	align-items: top;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.fa-toggle-on {
+	color: orange;
+	font-size: 25px;
+}
+.ja {
+	display: flex;
+	font-size: 20px;
+}
+.fa-plus-square {
+	display: flex;
+	font-size: 40px;
+	margin-right: 10px;
+}
+.fa-search {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+}
+.icons {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+.span {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.menu-item-list {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
